@@ -1,19 +1,18 @@
-# Explor
-سورس مورگان ورژن 1
+سورس اکسپلور ورژن 2.3
 
 آموزش نصب:
 
-اول سورس را گیت کلون میکنیم
+اول سورس را گیت کلون میکنیم  
 
-vertical_traffic_light git clone https://github.com/morgan-team/morgan-V1
+🚦 git clone https://github.com/ExplorCompany/Explor  
 
 وارد مسیر زیر میشیم
 
-vertical_traffic_light morgan/api/bot/bot.lua
+🚦 Explor/api/bot/bot.lua
 
-در خط 3 توکن ربان ای پی را قرار می دهیم
+در خط 3 توکن ربان ای پی را قرار می دهیم 
 
-در خط 5 ایدی عددی سودو اصلی
+در خط 5 ایدی عددی سودو اصلی  
 
 در خط 165 ایدی عددی سودو و ایدی عددی ربات سی ال ای
 
@@ -21,64 +20,67 @@ vertical_traffic_light morgan/api/bot/bot.lua
 
 وارد مسیر زیر میشیم
 
-vertical_traffic_light morgan/cli/plugins/Tools
+🚦 Explor/cli/plugins/Tools
 
 در خط 2 ایدی عددی سودو را جا گذاری می کنیم
 
-سیو می کنیم
+سیو می کنیم 
 
-وارد مسیر زیر میشیم
+وارد مسیر زیر میشیم 
 
-vertical_traffic_lightmorgan/cli/bot/bot.lua
+🚦Explor/cli/bot/bot.lua
 
 در خط 17 ایدی عددی ربات ای پی را قرار می دهیم
 
-در خط 95 ایدی عددی سودو و ایدی عددی ربات سی ال ای راقرار می دهیم
+در خط 95 ایدی عددی سودو  و ایدی عددی ربات سی ال ای راقرار می دهیم
 
-سیو میکنیم خارج میشیم
+سیو میکنیم خارج میشیم 
 
 دستورات زیر را در ترمینال وارد کنید
 
-vertical_traffic_light cd morgan/cli
 
-vertical_traffic_light chmod +x morgan.sh
+🚦 cd Explor/cli
 
-vertical_traffic_light chmod 777 auto.sh && sed -i -e 's/\r$//' auto.sh
+🚦 chmod +x Explor.sh
 
-vertical_traffic_light ./morgan.sh install
+🚦 chmod 777 auto.sh && sed -i -e 's/\r$//' auto.sh
 
-vertical_traffic_light ./morgan.sh
+🚦 ./Explor.sh install 
 
-صبر میکنیم تا کامل نصب بشه
+🚦 ./Explor.sh
+
+صبر میکنیم تا کامل نصب بشه 
 
 شماره ربات وارد مکنید کد میزنید‌
 
 از سرور خارج و دوباره وصل میشید...
 
-کد های زیر را در سرور میزنیم
+کد های زیر را در سرور میزنیم 
 
-vertical_traffic_light cd morgan/api
+🚦 cd Explor/api
 
-vertical_traffic_light chmod +x morgan.sh
+🚦 chmod +x Explor.sh
 
-vertical_traffic_light chmod 777 auto.sh && sed -i -e 's/\r$//' auto.sh
+🚦 chmod 777 auto.sh && sed -i -e 's/\r$//' auto.sh
 
-vertical_traffic_light ./morgan.sh install
+🚦 ./Explor.sh install
 
-vertical_traffic_light ./morgan.sh
+🚦 ./Explor.sh
 
 صبر کنید تموم شه ، بعد ترمینال رو ببندید .
 
+
+
 حالا ربات اماده لانچ کردنه :
 
-vertical_traffic_lightcd morgan/api && chmod +x auto.sh && chmod 777 auto.sh && screen ./auto.sh
+🚦cd Explor/api && chmod +x auto.sh && chmod 777 auto.sh && screen ./auto.sh
 
-یه ترمینال دیگه باز کنید و این رو بزنید :
+یه ترمینال دیگه باز کنید و این رو بزنید : 
 
-vertical_traffic_light cd morgan/cli && chmod +x auto.sh && chmod 777 auto.sh && screen ./auto.sh
+🚦 cd Explor/cli && chmod +x auto.sh && chmod 777 auto.sh && screen ./auto.sh 
 
 تموم . میتونید از سرور خارج شید .
 
-black_small_squareChannel : @ExplorCompany
+▪️Channel : @ExplorCompany
 
-black_small_squareEdited By :  @kiarashNASA
+▪️Edited By : @kiarashNASA
